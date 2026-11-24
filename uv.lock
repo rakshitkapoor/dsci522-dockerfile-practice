@@ -19,7 +19,7 @@ wheels = [
 [[package]]
 name = "dsci522-dockerfile-practice"
 version = "0.1.0"
-source = { editable = "." }
+source = { virtual = "." }
 dependencies = [
     { name = "cowsay" },
     { name = "numpy" },
